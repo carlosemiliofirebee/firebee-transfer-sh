@@ -1,0 +1,6 @@
+# Uploaded files storage
+data/*
+!data/.gitkeep
+
+# OS
+.DS_Store
