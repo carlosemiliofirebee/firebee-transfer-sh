@@ -3,10 +3,9 @@ version: "3.8"
 services:
   transfer:
     image: dutchcoders/transfer.sh:latest
-    container_name: transfer-sh
     restart: unless-stopped
     ports:
-      - "8080:8080"
+      - "3210:8080"
     volumes:
       - ./data:/data
     environment:
