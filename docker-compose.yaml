@@ -4,8 +4,8 @@ services:
   transfer:
     image: dutchcoders/transfer.sh:latest
     restart: unless-stopped
-    ports:
-      - "3210:8080"
+    # ports:
+    #   - "3210:8080"
     volumes:
       - ./data:/data
     environment:
