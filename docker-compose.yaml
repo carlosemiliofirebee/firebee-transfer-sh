@@ -13,6 +13,7 @@ services:
       - PURGE_INTERVAL=1
       - RATE_LIMIT=10
       - WEB_PATH=/web
+      - LISTENER=:8080
     labels:
       - "traefik.enable=true"
       - "traefik.http.services.transfer.loadbalancer.server.port=8080"
